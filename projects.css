@@ -1,0 +1,50 @@
+main .projects{
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+}
+
+main .projects .left{
+    width: 90%;
+    position: relative;
+}
+main .projects .left img{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    z-index: 1;
+}
+main .projects .left:hover img{
+    opacity: 0.5;
+    z-index: 0;
+    transition: opacity 0.1s ease-in;
+}
+
+main .projects .desc{
+    position: absolute;
+    width: 300px;
+    left: 50%;
+    top: 50%;
+    transform: translate(20%,-50%);
+}
+main .projects .desc *{
+    color: white;
+
+}
+main .projects .right{
+    background-color: green;
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: monospace;
+    font-size: 2rem;
+    font-weight: 600;
+    color: antiquewhite;
+}
+main .projects .right:hover{
+    background-color: hsl(120, 100%, 35%);
+    transition: background-color 0.1s ease-in;
+}

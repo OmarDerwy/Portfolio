@@ -1,0 +1,96 @@
+main{
+    width: 1000px;
+    margin: auto;
+}
+
+main .hero-section{
+    display: flex;
+    flex-direction: column;
+}
+
+main .hero-section .top{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    /* height: 100vh; */
+    width: inherit;
+
+}
+main .hero-section h1{
+    font-size: 2.5rem;
+}
+main .hero-section p{
+    font-family: monospace;
+    font-size: 1.2rem;
+}
+
+main .hero-section button{
+    background-color: green;
+    border-style: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 1rem;
+    animation: ease-in-out;
+    cursor: pointer;
+}
+main .hero-section button:hover{
+    transform: scale(1.05);
+}
+main section {
+    background-color: #333;
+    border-radius: 20px;
+    padding: 60px 60px 30px 60px;
+}
+main .column{
+    width: 45%;
+    /* height: 100vh; */
+    /* position: relative; */
+}
+main .right{
+    display: flex;
+    justify-content: center;
+}
+main .img-container{
+    border-radius: 50%;
+    overflow:hidden;
+    width: 300px;
+    height: 300px;
+}
+main .img-container img{
+    height: 100%;
+    transform: scale(1.6) translate(-10px,40px);
+
+}
+
+/* main .hero-section img{
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+} */
+main .hero-section .bottom{
+    margin-top: 50px;
+}
+main .social-media{
+    margin:auto;
+    display: flex;
+    justify-content: space-between;
+    width: 350px;
+    /* background-color: black; */
+}
+main .social-media img{
+    width: 70px;
+    animation: ease-in 0.5s;
+
+}
+
+main .divider{
+    height: 200px;
+    width: 100%;
+    /* background-color: black; */
+}
+main a img:hover{
+    transform: scale(1.1);
+}
