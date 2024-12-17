@@ -77,7 +77,8 @@ main .social-media{
     margin:auto;
     display: flex;
     justify-content: space-between;
-    width: 350px;
+    align-items: center;
+    width: 400px;
     /* background-color: black; */
 }
 main .social-media img{
